@@ -1,0 +1,23 @@
+signup
+{
+    "username":"ali",
+    "password": "thisispassword",
+    "email": "ali@gmail.com"
+}
+
+signin
+{
+    "username": "ali",
+    "password": "thisispassword"
+}
+http://localhost:3000/api/getcurrentuser
+
+http://localhost:3000/api/logout
+
+http://localhost:3000/api/gethighestscore
+
+http://localhost:3000/api/newscore
+{
+    "score":53
+}
+
