@@ -1,3 +1,6 @@
+const express = require('express')
+const app = express()
+const port = 8000
 
 (function ($) {
     "use strict";
@@ -54,6 +57,10 @@
 })(jQuery);
 function redirect(){
     if($('#form').valid()){
-        window.open("index.html", "_self");
+        //window.open("index.html", "_self");
+        app.get('/', (req, res) => res.send('Hello World!'))
+        app.listen(port, () => console.log(`Example app listening on port ${port}!`))
     }
+    app.get('/', (req, res) => res.send('Hello World!'))
+    app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 }
