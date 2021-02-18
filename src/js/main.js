@@ -65,7 +65,7 @@ function redirect(){
     app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 }
 
-const URL = "http://localhost:3000" 
+const URL = "http://localhost:8000" 
 // https://tonyspiro.com/how-to-keep-session-data-after-fetch-post-with-express/
 Parse.initialize("myAppId2", "myMasterKey2"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
 Parse.serverURL = "http://localhost:1337/parse";

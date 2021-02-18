@@ -73,13 +73,6 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
-@-webkit-keyframes row_from_0_to_1 {
-    from {
-        top: 5; }
-
-    to {
-        top: 115; } }
-
 @keyframes row_from_0_to_1 {
     from {
         top: 5; }
@@ -94,13 +87,6 @@
     animation-name: row_from_0_to_2;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
-
-@-webkit-keyframes row_from_0_to_2 {
-    from {
-        top: 5; }
-
-    to {
-        top: 225; } }
 
 @keyframes row_from_0_to_2 {
     from {
@@ -117,13 +103,6 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
-@-webkit-keyframes row_from_0_to_3 {
-    from {
-        top: 5; }
-
-    to {
-        top: 335; } }
-
 @keyframes row_from_0_to_3 {
     from {
         top: 5; }
@@ -139,12 +118,6 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
-@-webkit-keyframes row_from_1_to_0 {
-    from {
-        top: 115; }
-
-    to {
-        top: 5; } }
 
 @keyframes row_from_1_to_0 {
     from {
@@ -164,12 +137,6 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
-@-webkit-keyframes row_from_1_to_2 {
-    from {
-        top: 115; }
-
-    to {
-        top: 225; } }
 
 @keyframes row_from_1_to_2 {
     from {
@@ -186,12 +153,6 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
-@-webkit-keyframes row_from_1_to_3 {
-    from {
-        top: 115; }
-
-    to {
-        top: 335; } }
 
 @keyframes row_from_1_to_3 {
     from {
@@ -208,13 +169,6 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
-@-webkit-keyframes row_from_2_to_0 {
-    from {
-        top: 225; }
-
-    to {
-        top: 5; } }
-
 @keyframes row_from_2_to_0 {
     from {
         top: 225; }
@@ -229,13 +183,6 @@
     animation-name: row_from_2_to_1;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
-
-@-webkit-keyframes row_from_2_to_1 {
-    from {
-        top: 225; }
-
-    to {
-        top: 115; } }
 
 @keyframes row_from_2_to_1 {
     from {
@@ -255,13 +202,6 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
-@-webkit-keyframes row_from_2_to_3 {
-    from {
-        top: 225; }
-
-    to {
-        top: 335; } }
-
 @keyframes row_from_2_to_3 {
     from {
         top: 225; }
@@ -276,13 +216,6 @@
     animation-name: row_from_3_to_0;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
-
-@-webkit-keyframes row_from_3_to_0 {
-    from {
-        top: 335; }
-
-    to {
-        top: 5; } }
 
 @keyframes row_from_3_to_0 {
     from {
@@ -299,13 +232,6 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
 
-@-webkit-keyframes row_from_3_to_1 {
-    from {
-        top: 335; }
-
-    to {
-        top: 115; } }
-
 @keyframes row_from_3_to_1 {
     from {
         top: 335; }
@@ -320,13 +246,6 @@
     animation-name: row_from_3_to_2;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; }
-
-@-webkit-keyframes row_from_3_to_2 {
-    from {
-        top: 335; }
-
-    to {
-        top: 225; } }
 
 @keyframes row_from_3_to_2 {
     from {
@@ -349,13 +268,6 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
-@-webkit-keyframes column_from_0_to_1 {
-  from {
-    left: 5; }
-
-  to {
-    left: 115; } }
-
 @keyframes column_from_0_to_1 {
   from {
     left: 5; }
@@ -370,13 +282,6 @@
           animation-name: column_from_0_to_2;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
-
-@-webkit-keyframes column_from_0_to_2 {
-  from {
-    left: 5; }
-
-  to {
-    left: 225; } }
 
 @keyframes column_from_0_to_2 {
   from {
@@ -393,13 +298,6 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
-@-webkit-keyframes column_from_0_to_3 {
-  from {
-    left: 5; }
-
-  to {
-    left: 335; } }
-
 @keyframes column_from_0_to_3 {
   from {
     left: 5; }
@@ -414,13 +312,6 @@
           animation-name: column_from_1_to_0;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
-
-@-webkit-keyframes column_from_1_to_0 {
-  from {
-    left: 115; }
-
-  to {
-    left: 5; } }
 
 @keyframes column_from_1_to_0 {
   from {
@@ -440,13 +331,6 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
-@-webkit-keyframes column_from_1_to_2 {
-  from {
-    left: 115; }
-
-  to {
-    left: 225; } }
-
 @keyframes column_from_1_to_2 {
   from {
     left: 115; }
@@ -461,13 +345,6 @@
           animation-name: column_from_1_to_3;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
-
-@-webkit-keyframes column_from_1_to_3 {
-  from {
-    left: 115; }
-
-  to {
-    left: 335; } }
 
 @keyframes column_from_1_to_3 {
   from {
@@ -484,13 +361,6 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
-@-webkit-keyframes column_from_2_to_0 {
-  from {
-    left: 225; }
-
-  to {
-    left: 5; } }
-
 @keyframes column_from_2_to_0 {
   from {
     left: 225; }
@@ -505,13 +375,6 @@
           animation-name: column_from_2_to_1;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
-
-@-webkit-keyframes column_from_2_to_1 {
-  from {
-    left: 225; }
-
-  to {
-    left: 115; } }
 
 @keyframes column_from_2_to_1 {
   from {
@@ -531,13 +394,6 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
-@-webkit-keyframes column_from_2_to_3 {
-  from {
-    left: 225; }
-
-  to {
-    left: 335; } }
-
 @keyframes column_from_2_to_3 {
   from {
     left: 225; }
@@ -552,13 +408,6 @@
           animation-name: column_from_3_to_0;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
-
-@-webkit-keyframes column_from_3_to_0 {
-  from {
-    left: 335; }
-
-  to {
-    left: 5; } }
 
 @keyframes column_from_3_to_0 {
   from {
@@ -575,13 +424,6 @@
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
 
-@-webkit-keyframes column_from_3_to_1 {
-  from {
-    left: 335; }
-
-  to {
-    left: 115; } }
-
 @keyframes column_from_3_to_1 {
   from {
     left: 335; }
@@ -596,13 +438,6 @@
           animation-name: column_from_3_to_2;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards; }
-
-@-webkit-keyframes column_from_3_to_2 {
-  from {
-    left: 335; }
-
-  to {
-    left: 225; } }
 
 @keyframes column_from_3_to_2 {
   from {
