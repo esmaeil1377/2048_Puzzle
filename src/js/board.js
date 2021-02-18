@@ -95,7 +95,7 @@ Board.prototype.moveLeft = function () {
         targetTile.value += tile2.value;
       }
       resultRow[target] = targetTile;
-      this.won |= targetTile.value == 2048;
+      this.won ||= targetTile.value == 32; // it is should be 2048
       hasChanged |= targetTile.value != this.cells[row][target].value;
     }
     this.cells[row] = resultRow;

@@ -55,15 +55,15 @@ const port = 8000
     }
 
 })(jQuery);
-function redirect(){
-    if($('#form').valid()){
-        //window.open("index.html", "_self");
-        app.get('/', (req, res) => res.send('Hello World!'))
-        app.listen(port, () => console.log(`Example app listening on port ${port}!`))
-    }
-    app.get('/', (req, res) => res.send('Hello World!'))
-    app.listen(port, () => console.log(`Example app listening on port ${port}!`))
-}
+// function redirect(){
+//     if($('#form').valid()){
+//         //window.open("index.html", "_self");
+//         app.get('/', (req, res) => res.send('Hello World!'))
+//         app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+//     }
+//     app.get('/', (req, res) => res.send('Hello World!'))
+//     app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+// }
 
 const URL = "http://localhost:8000" 
 // https://tonyspiro.com/how-to-keep-session-data-after-fetch-post-with-express/

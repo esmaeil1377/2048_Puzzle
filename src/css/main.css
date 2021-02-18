@@ -127,15 +127,6 @@
     -webkit-transform: scale(0);
             transform: scale(0); }
 
-@-webkit-keyframes newTile {
-  from {
-    -webkit-transform: scale(0);
-            transform: scale(0); }
-
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
-
 @keyframes newTile {
   from {
     -webkit-transform: scale(0);
